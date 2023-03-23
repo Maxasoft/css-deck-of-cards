@@ -60,9 +60,9 @@ body {
     background-image: url("imgs/club.svg");
 }
 
-/* [data-suit="none"] .pip {
+[data-suit="none"] .pip {
     background-image: url("imgs/joker.svg");
-} */
+}
 
 .corner-number {
     position: absolute;
@@ -107,9 +107,9 @@ body {
     content: url("imgs/diamond.svg");
 }
 
-/* [data-suit="none"] .corner-number::after {
+[data-suit="none"] .corner-number::after {
     content: url("imgs/joker.svg");
-} */
+}
 
 [data-value="J"][data-suit="diamond"] .pip,
 [data-value="J"][data-suit="heart"] .pip {
